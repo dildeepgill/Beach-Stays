@@ -1,0 +1,73 @@
+@use "./variables" as *;
+
+// section4
+
+.section4-row1,
+.section4-row2 {
+    display: flex;
+    background-color: $lightLightBlue;
+    align-items: center;
+}
+
+.section4-row2 {
+    justify-content: flex-end;
+}
+
+.section4-row1 {
+    justify-content: start;
+}
+
+.section4-row1 {
+    .section4-img-wrapper {
+        width: 40%;
+        max-width: 800px;
+        margin-top: -80px;
+        box-shadow: 15px 15px $greenishCyan ;
+    }
+
+    .section4-para-wrapper {
+        width: 48%;
+
+        display: flex;
+        justify-content: end;
+
+        .section4-center {
+            width: 58%;
+            max-width: 550px;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+.section4-row2 {
+    .section4-img-wrapper {
+        width: 40%;
+        max-width: 800px;
+        margin-bottom: -80px;
+        box-shadow: -15px 15px $greenishCyan ;
+        z-index: 2;
+    }
+
+    .section4-para-wrapper {
+        width: 48%;
+        display: flex;
+        justify-content: start;
+
+
+        .section4-center {
+            width: 58%;
+            max-width: 550px;
+            text-align: right;
+        }
+
+        button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+}

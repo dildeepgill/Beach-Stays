@@ -1,0 +1,84 @@
+@use "./variables" as *;
+
+// SECTION 1 
+.section1-background {
+    background-color: $iceBlue ;
+}
+
+.container {
+    padding: 150px 0;
+}
+
+.section1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1-para-wrapper {
+    width: 65%;
+}
+
+.section1-img-wrapper {
+    width: 20%;
+    box-shadow: -20px 20px $greenishCyan;
+
+}
+
+
+button {
+    font-family: $playFair;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $iceBlue;
+    background-color: $twlightBlue;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $twlightBlue;
+    }
+
+    &:focus {
+        background-color: $twlightBlue;
+    }
+}
+
+p {
+    font-size: $lato;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+
+.section1-para-wrapper {
+    h2 {
+        font-size: 35px;
+        color: $spruce;
+        font-weight: bold;
+        line-height: 58px;
+        letter-spacing: 3.8px;
+    }
+}
+
+
+.section3-para {
+    h3 {
+        font-size: 30px;
+        letter-spacing: 3.2px;
+        color: $spruce;
+        line-height: 58px;
+    }
+}
+
+.section4 {
+    h4 {
+        color: $twlightBlue;
+        line-height: 58px;
+        letter-spacing: 3.8px;
+        font-size: 35px;
+    }
+}

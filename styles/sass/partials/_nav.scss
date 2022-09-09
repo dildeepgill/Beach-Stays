@@ -1,0 +1,98 @@
+@use "./variables" as *;
+
+
+//Navigation
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 29px;
+    letter-spacing: 1px;
+    height: 90px;
+}
+
+header {
+    background-image: url("../beach-final-images/home-image-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 850px;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: $playFair;
+    font-size: 34.6px;
+    color: $greenishCyan;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: $iceBlue;
+}
+
+.nav-home-green {
+    color: $greenishCyan;
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: $lato;
+    font-size: 62px;
+    color: $spruce;
+    font-weight: bold;
+    z-index: 4;
+    letter-spacing: 6.7px;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 51.1%;
+    transform: translateX(-40%);
+    font-size: clamp(1rem, 4vw, 3.45rem);
+
+    .playfair {
+        font-family: $playFair;
+        color: $twlightBlue;
+        font-size: 111.2px;
+
+    }
+}
+
+img {
+    width: 100%;
+}
+
+
+.header-img-container {
+    max-width: 1526px;
+    margin: 0 auto;
+    height: 850px;
+    display: flex;
+    align-items: flex-end;
+
+    img {
+        max-width: 560px;
+        width: 100%;
+
+    }
+}

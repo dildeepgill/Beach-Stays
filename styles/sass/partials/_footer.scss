@@ -1,0 +1,30 @@
+@use "./variables" as *;
+
+.wrapper1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section6 {
+
+    text-align: center;
+
+    h4 {
+        color: $greenishCyan;
+        font-size: 35px;
+        padding-bottom: 20px
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+
+// footer
+
+footer {
+    text-align: center;
+    color: $iceBlue;
+    background-color: $black;
+    padding: 5px 0;
+}

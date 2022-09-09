@@ -1,10 +1,44 @@
 @use "./partials/variables" as *;
 @use "./partials/typography";
 @use "./partials/setup";
+@use "./partials/nav";
+@use "./partials/section1";
+@use "./partials/section2";
+@use "./partials/section3";
+@use "./partials/section4";
+@use "./partials/footer";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap');
 
 
-h1 {
-    font-family: $headingBeachStay;
-    text-align: center;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
 }
+
+figure {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+// section 5 
+.section5 {
+    background-image: url("../beach-final-images/banner-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+
+//  section 6

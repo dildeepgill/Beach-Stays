@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+// section2
+
+.container1 {
+    padding: 75px 0px;
+}
+
+.section2-background {
+    background-color: $lightLightBlue ;
+
+}
+
+.section2 {
+    display: flex;
+    gap: 30px;
+}
