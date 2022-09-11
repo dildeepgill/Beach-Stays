@@ -30,8 +30,8 @@
 
     }
 
-    ul li {
-        font-size: 45px;
+    .index-ul li {
+        font-size: 35px;
         text-align: center;
         padding: 20px;
 
@@ -143,4 +143,79 @@
     .playfair {
         font-size: clamp(2rem, 2.5vw, 2rem) !important;
     }
+}
+
+//  blog
+
+@media (max-width: 800px) {
+    .blog-li li {
+        font-size: 35px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .allcontent-wrapper {
+        flex-direction: column;
+
+    }
+
+    .img-para-wrapper {
+        margin: 0 auto;
+        width: 90% !important;
+        margin-top: 100px !important;
+        text-align: center;
+    }
+
+    .aside-wrapper {
+        width: 90% !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .comment-content-wrapper {
+        width: 90% !important;
+        text-align: center;
+    }
+
+    .firstpic {
+        flex-direction: column;
+    }
+
+    .content-img-wrapper li {
+        padding-top: 80px;
+        line-height: 1;
+    }
+
+    .content-img-wrapper p {
+        padding-top: 20px;
+
+    }
+
+    .comment-content-wrapper {
+        padding: 0 !important;
+        margin: 0 auto;
+    }
+
+    .comment-wrapper .comment1-picture {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .comment-wrapper .comment-div-wrapper {
+        padding: 0;
+    }
+
+    .comment-wrapper .comment2-picture {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .comment-wrapper .comment-div-wrapper {
+        padding-bottom: 55px;
+    }
+
+    .blog-background h2 {
+        justify-content: center;
+    }
+
 }
