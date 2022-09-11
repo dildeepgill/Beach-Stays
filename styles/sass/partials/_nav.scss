@@ -222,10 +222,16 @@ img {
 }
 
 .comment-wrapper {
-    width: 87%;
+    img {
+        width: 100%;
+    }
+
+    .comment2-picture {
+        width: 410px;
+    }
 
     .comment-content-wrapper {
-        max-width: 64%;
+        width: 64%;
         padding: 60px 83px;
     }
 
@@ -255,7 +261,8 @@ img {
     }
 
     .comment1-picture {
-        width: 450px;
+        width: 80%;
+
     }
 
     p {
@@ -322,23 +329,26 @@ button {
     }
 }
 
-form {}
+
 
 .wrapper3 {
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: -250px;
+
     position: relative;
+    width: 100%;
 
     .form-container {
-        max-width: 1100px;
+
         box-shadow: 13px 13px $greenishCyan;
         background-color: white;
-        height: 500px;
+
+        width: 100%;
+
     }
 
     button {
-        // margin-bottom: 100px;
+
         width: 80%;
         max-width: 1000px;
         margin: auto;
@@ -363,32 +373,42 @@ form {}
 }
 
 .contact-section {
+    margin-top: -250px;
     display: flex;
-
 }
 
 .social-container {
-    padding-right: 127px;
-    padding-top: 250px;
-    padding-left: 250px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 700px;
-    width: 40%;
+    align-items: flex-end;
+
+    .social-container-info {
+        width: 55%;
+        margin: 0 auto;
+
+    }
 
 
     .contact-links {
-
         .fa-brands {
             font-size: 25px;
             color: black;
-
+            padding-right: 20px;
+            padding-bottom: 15px
         }
 
         .link-df {
             display: flex;
         }
+    }
+
+    .email {
+        font-size: 32px;
+        font-family: $black;
+        letter-spacing: 2px;
+        font-weight: bold;
+        line-height: 32px;
+        padding-bottom: 15px
     }
 
 }

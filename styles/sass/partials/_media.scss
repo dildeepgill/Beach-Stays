@@ -1,0 +1,146 @@
+// index
+@media (max-width: 1000px) {
+    nav {
+        padding-left: 10px;
+    }
+
+    h1 .playfair {
+        font-size: 60px;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width:800px) {
+    nav {
+        flex-direction: column;
+        padding-top: 250px;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-top: -100px;
+
+    }
+
+    ul li {
+        font-size: 45px;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    h1 .playfair {
+        font-size: 60px;
+
+    }
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding-top: 250px;
+        font-size: clamp(1rem, 2vw, 3rem) !important;
+
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .header-img-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .section1 {
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: center;
+
+    }
+
+    .section1-para-wrapper {
+        width: 89%;
+        padding-bottom: 45px;
+    }
+
+    .section1-img-wrapper {
+        width: 40%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .section3-row1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section3-row2 {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -50px
+    }
+
+    .font-awesome {
+        display: block;
+        border-radius: 0%;
+    }
+
+    .section4-row1 {
+        flex-direction: column;
+
+    }
+
+    .section4-row2 {
+        flex-direction: column;
+    }
+
+    .section4-img-wrapper {
+        width: 70% !important;
+        margin-top: 80px !important;
+    }
+
+    .section4-para-wrapper {
+        width: 90% !important;
+    }
+
+    .section4-center {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section4-center {
+        text-align: center !important;
+    }
+
+    .section4-para-wrapper {
+        padding-top: 50px;
+    }
+
+    .section6 {
+        width: 90%
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size: clamp(1rem, 2.5vw, 2rem) !important;
+    }
+
+    .playfair {
+        font-size: clamp(2rem, 2.5vw, 2rem) !important;
+    }
+}
