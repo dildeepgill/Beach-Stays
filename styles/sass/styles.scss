@@ -1,5 +1,5 @@
 @use "./partials/variables" as *;
-@use "./partials/typography";
+@use "./partials/placeholders";
 @use "./partials/setup";
 @use "./partials/nav";
 @use "./partials/section1";
@@ -15,30 +15,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-
 }
 
 figure {
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-// section 5 
-.section5 {
-    background-image: url("../beach-final-images/banner-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 100%;
-}
-
-
-//  section 6
