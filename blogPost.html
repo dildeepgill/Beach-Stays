@@ -7,21 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/8f523b1737.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+
+
     <header class="blog-background">
         <nav class="wrapper">
             <p class="logo">BEACHSTAYS</p>
             <ul class="blog-li">
-                <li><a href=".index.html">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="./blogPost.html" class="nav-home-green" href="./blogPost.html">BLOG</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a target="_self" href="./index.html">HOME</a></li>
+                <li><a target="_self" href="#about">ABOUT</a></li>
+                <li><a target="_self" href="./blogPost.html" class="nav-home-green" href="./blogPost.html">BLOG</a></li>
+                <li><a target="_self" href="./contact.html">CONTACT</a></li>
             </ul>
         </nav>
         <h2 class="white wrapper">Blog</h2>
+
+        <div class="toggle">
+            <div class="x-mark">
+                <i class="fa-solid fa-x fa-2x"></i>
+            </div>
+            <ul class="hamburger-menu-links index">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a class="nav-home-green" target="_self" href="./blogPost.html">BLOG</a></li>
+                <li><a target="_self" href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
     </header>
+
+
+    <div class="mobile-nav">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
     <div class="allcontent-wrapper wrapper2">
         <div class="img-para-wrapper">
             <figure class="post-image">
@@ -128,6 +150,8 @@
             </form>
         </div>
     </div>
+    <footer>Copyright @ 2022 HackerYou</footer>
+    <script src="./app.js"></script>
 </body>
 
 </html>

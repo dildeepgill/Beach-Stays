@@ -2,6 +2,7 @@
 @media (max-width: 1000px) {
     nav {
         padding-left: 10px;
+
     }
 
     h1 .playfair {
@@ -17,8 +18,8 @@
     nav {
         flex-direction: column;
         padding-top: 250px;
+        display: none;
     }
-
 
     .logo {
         display: none;
@@ -27,19 +28,16 @@
     ul {
         flex-direction: column;
         margin-top: -100px;
-
     }
 
     .index-ul li {
         font-size: 35px;
         text-align: center;
         padding: 20px;
-
     }
 
     h1 .playfair {
         font-size: 60px;
-
     }
 
     h1 {
@@ -48,9 +46,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        padding-top: 250px;
-        font-size: clamp(1rem, 2vw, 3rem) !important;
-
+        font-size: clamp(3rem, 2vw, 3rem) !important;
+        padding-bottom: 100px;
     }
 
     .wrapper {
@@ -60,13 +57,13 @@
     .header-img-container {
         width: 60%;
         margin: 0 auto;
+        height: 1000px;
     }
 
     .section1 {
         flex-direction: column;
         margin-top: 150px;
         text-align: center;
-
     }
 
     .section1-para-wrapper {
@@ -133,7 +130,38 @@
     .section6 {
         width: 90%
     }
+
+    .mobile-nav {
+        display: flex;
+        display: block;
+        font-size: 55px;
+        position: fixed;
+        right: 4%;
+        top: 4%;
+        color: black;
+        font-weight: bolder;
+        z-index: 100;
+    }
+
+    .fa-2x {
+        position: relative;
+        z-index: 100;
+
+    }
+
+
+
+    .hamburger-menu-links {
+        transition: all 3s ease;
+
+    }
+
+    .navbar-ul {
+        background-color: blue;
+    }
+
 }
+
 
 @media (max-width:500px) {
     h1 {
@@ -148,6 +176,8 @@
 //  blog
 
 @media (max-width: 800px) {
+
+
     .blog-li li {
         font-size: 35px;
         text-align: center;
@@ -254,5 +284,24 @@
     .contact-links {
         padding-left: 50px;
         margin-top: 100px;
+    }
+
+    .contact-footer {
+        margin-top: 550px;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .contact-section .form-container {
+        width: 100%;
+        font-size: 5px;
+        padding: 40px 10px
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
     }
 }

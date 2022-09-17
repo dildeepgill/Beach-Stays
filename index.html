@@ -11,16 +11,34 @@
 </head>
 
 <body>
+
+
     <header class="main-background">
         <nav class="wrapper">
             <p class="logo">BEACHSTAYS</p>
             <ul class="index-ul">
                 <li><a class="nav-home-green" href="#">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="./blogPost.html">BLOG</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a target="_self" href="./blogPost.html">BLOG</a></li>
+                <li><a target="_self" href="./contact.html">CONTACT</a></li>
             </ul>
         </nav>
+
+        <div class="toggle">
+            <div class="x-mark">
+                <i class="fa-solid fa-x fa-2x"></i>
+            </div>
+            <ul class="hamburger-menu-links">
+                <li><a class="nav-home-green" href="./index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a target="_self" href="./blogPost.html">BLOG</a></li>
+                <li><a target="_self" href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-nav">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
         <h1>welcome to <br><span class="playfair">BEACHSTAYS</span></h1>
 
@@ -148,9 +166,11 @@
             <button>FIND OUT MORE</button>
         </section>
 
-        <footer>Copyright @ 2019 HackerYou</footer>
+        <footer>Copyright @ 2022 HackerYou</footer>
 
     </main>
+    <script src="./app.js"></script>
+
 </body>
 
 </html>

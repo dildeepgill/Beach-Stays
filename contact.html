@@ -22,45 +22,64 @@
             </ul>
         </nav>
 
+        <div class="toggle">
+            <div class="x-mark">
+                <i class="fa-solid fa-x fa-2x"></i>
+            </div>
+            <ul class="hamburger-menu-links">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a target="_self" href="./blogPost.html">BLOG</a></li>
+                <li><a class="nav-home-green" target="_self" href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
         <h2 class="getintouch wrapper">Get in Touch</h2>
     </header>
-    <div class="contact-section wrapper3">
-        <div class="form-container">
-            <form action="submit">
-                <div class="box">
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name" placeholder="Email address">
+    <main>
+        <div class="contact-section wrapper3">
+            <div class="form-container">
+                <form action="submit">
+                    <div class="box">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Email address">
+                    </div>
+                    <div>
+                        <textarea name="comment" id="" cols="30" rows="8" placeholder="Message"></textarea></textarea>
+                    </div>
+                    <button>SUBMIT</button>
+            </div>
+            </form>
+            <div class="social-container">
+                <div class="social-container-info">
+                    <div class="contact-links">
+                        <ul class="link-df">
+                            <li><a target="_self" href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_self" href=""></a><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><a target="_self" href=""></a><i class="fa-brands fa-twitter"></i></li>
+                            <li><a target="_self" href=""></a><i class="fa-brands fa-whatsapp"></i></li>
+                        </ul>
+                    </div>
+                    <p class="email">info@email.com</p>
+                    <p class="info">123-456-7890
+                        <br>
+                        123 Queen Street West
+                        <br>
+                        Unit 10
+                        <br>
+                        M5V2D5
+                    </p>
                 </div>
-                <div>
-                    <textarea name="comment" id="" cols="30" rows="8" placeholder="Message"></textarea></textarea>
-                </div>
-                <button>SUBMIT</button>
-        </div>
-        </form>
-        <div class="social-container">
-            <div class="social-container-info">
-                <div class="contact-links">
-                    <ul class="link-df">
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href=""></a><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-twitter"></i></li>
-                        <li><a href=""></a><i class="fa-brands fa-whatsapp"></i></li>
-                    </ul>
-                </div>
-                <p class="email">info@email.com</p>
-                <p class="info">123-456-7890
-                    <br>
-                    123 Queen Street West
-                    <br>
-                    Unit 10
-                    <br>
-                    M5V2D5
-                </p>
             </div>
         </div>
-    </div>
+    </main>
+    <footer class="contact-footer">Copyright @ 2022 HackerYou</footer>
+    <script src="./app.js"></script>
 </body>
 
 </html>

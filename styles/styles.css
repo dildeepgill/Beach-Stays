@@ -619,6 +619,54 @@ button {
   padding-bottom: 20px;
 }
 
+.contact-footer {
+  margin-top: 80px;
+}
+
+.toggle {
+  display: none;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+}
+
+.x-mark {
+  display: block;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+  position: absolute;
+  right: 4%;
+  top: 4%;
+  color: black;
+  font-size: 2em;
+  position: fixed;
+}
+
+.mobile-nav {
+  position: fixed;
+  display: none;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+.hamburger-menu-links {
+  background-color: darkblue;
+  font-size: 25px;
+  position: fixed;
+  top: 25%;
+  opacity: 0.6;
+  text-align: center;
+}
+.hamburger-menu-links li {
+  margin-bottom: 25px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.hamburger-menu-links li:hover {
+  border-bottom: 2px solid #50E3C2;
+}
+
 .section1-background {
   background-color: #FAFFFE;
 }
@@ -865,6 +913,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-top: 250px;
+    display: none;
   }
   .logo {
     display: none;
@@ -891,8 +940,8 @@ footer {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 250px;
-    font-size: clamp(1rem, 2vw, 3rem) !important;
+    font-size: clamp(3rem, 2vw, 3rem) !important;
+    padding-bottom: 100px;
   }
   .wrapper {
     width: 90%;
@@ -900,6 +949,7 @@ footer {
   .header-img-container {
     width: 60%;
     margin: 0 auto;
+    height: 1000px;
   }
   .section1 {
     -webkit-box-orient: vertical;
@@ -973,6 +1023,30 @@ footer {
   }
   .section6 {
     width: 90%;
+  }
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: block;
+    font-size: 55px;
+    position: fixed;
+    right: 4%;
+    top: 4%;
+    color: black;
+    font-weight: bolder;
+    z-index: 100;
+  }
+  .fa-2x {
+    position: relative;
+    z-index: 100;
+  }
+  .hamburger-menu-links {
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+  }
+  .navbar-ul {
+    background-color: blue;
   }
 }
 @media (max-width: 500px) {
@@ -1080,6 +1154,20 @@ footer {
   .contact-links {
     padding-left: 50px;
     margin-top: 100px;
+  }
+  .contact-footer {
+    margin-top: 550px;
+  }
+}
+@media (max-width: 600px) {
+  .contact-section .form-container {
+    width: 100%;
+    font-size: 5px;
+    padding: 40px 10px;
+  }
+  input,
+textarea {
+    font-size: 16px;
   }
 }
 * {

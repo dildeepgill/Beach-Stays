@@ -272,7 +272,6 @@ img {
         line-height: 32px;
     }
 
-
 }
 
 
@@ -315,103 +314,6 @@ button {
 }
 
 // contact page
-
-// .contact-background {
-//     h2 {
-//         color: $iceBlue;
-//         font-size: 112px;
-//         line-height: 58px;
-//         letter-spacing: 6.7px;
-//         display: flex;
-//         height: 50%;
-//         align-items: flex-end;
-//         padding-bottom: 10px;
-//     }
-// }
-
-
-
-// .wrapper3 {
-//     max-width: 1500px;
-//     margin: 0 auto;
-
-//     position: relative;
-//     width: 100%;
-
-//     .form-container {
-
-//         box-shadow: 13px 13px $greenishCyan;
-//         background-color: white;
-
-//         width: 100%;
-
-//     }
-
-//     button {
-
-//         width: 80%;
-//         max-width: 1000px;
-//         margin: auto;
-//     }
-
-//     input {
-//         margin-top: 75px;
-//         margin-right: 50px;
-//         margin-left: 50px;
-
-//     }
-
-//     textarea {
-//         width: 1000px;
-//         max-width: 95%;
-//         margin: 0 auto;
-//         display: flex;
-//         justify-content: center;
-//         margin-bottom: 50px;
-//     }
-
-// }
-
-// .contact-section {
-//     margin-top: -250px;
-//     display: flex;
-// }
-
-// .social-container {
-//     width: 100%;
-//     display: flex;
-//     align-items: flex-end;
-
-//     .social-container-info {
-//         width: 55%;
-//         margin: 0 auto;
-
-//     }
-
-
-//     .contact-links {
-//         .fa-brands {
-//             font-size: 25px;
-//             color: black;
-//             padding-right: 20px;
-//             padding-bottom: 15px
-//         }
-
-//         .link-df {
-//             display: flex;
-//         }
-//     }
-
-//     .email {
-//         font-size: 32px;
-//         font-family: $black;
-//         letter-spacing: 2px;
-//         font-weight: bold;
-//         line-height: 32px;
-//         padding-bottom: 15px
-//     }
-
-// }
 
 .contact-background {
     h2 {
@@ -477,5 +379,50 @@ button {
 
     .box {
         padding-bottom: 20px;
+    }
+}
+
+.contact-footer {
+    margin-top: 80px;
+}
+
+.toggle {
+    display: none;
+    transition: all 3s ease;
+
+}
+
+.x-mark {
+    display: block;
+    transition: all 3s ease;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    color: black;
+    font-size: 2em;
+    position: fixed;
+}
+
+.mobile-nav {
+    position: fixed;
+    display: none;
+    transition: all 5s;
+}
+
+.hamburger-menu-links {
+    background-color: darkblue;
+    font-size: 25px;
+    position: fixed;
+    top: 25%;
+    opacity: 0.6;
+    text-align: center;
+
+    li {
+        margin-bottom: 25px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            border-bottom: 2px solid $greenishCyan;
+        }
     }
 }
