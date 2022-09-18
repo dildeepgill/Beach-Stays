@@ -430,9 +430,12 @@ img {
   -webkit-box-shadow: 13px 13px #50E3C2;
           box-shadow: 13px 13px #50E3C2;
 }
+.allcontent-wrapper .aside-image {
+  width: 100%;
+  padding-top: 85px;
+}
 .allcontent-wrapper .aside-wrapper {
   width: 20%;
-  padding-top: 85px;
 }
 .allcontent-wrapper .blue {
   color: #063974;

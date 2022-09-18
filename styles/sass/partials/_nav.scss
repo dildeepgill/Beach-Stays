@@ -130,6 +130,7 @@ img {
 
 }
 
+
 .allcontent-wrapper {
     display: flex;
     justify-content: space-between;
@@ -170,9 +171,13 @@ img {
         box-shadow: 13px 13px $greenishCyan;
     }
 
+    .aside-image {
+        width: 100%;
+        padding-top: 85px;
+    }
+
     .aside-wrapper {
         width: 20%;
-        padding-top: 85px;
     }
 
     .blue {
