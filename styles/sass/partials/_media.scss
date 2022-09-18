@@ -141,26 +141,39 @@
         color: black;
         font-weight: bolder;
         z-index: 100;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s linear 300ms, opacity 300ms;
+
     }
 
-    .fa-2x {
-        position: relative;
+    .x-mark {
+
+        position: fixed;
+        font-size: 2em;
+        right: 4%;
+        top: 4%;
+        color: black;
+        font-weight: bolder;
         z-index: 100;
-
     }
 
-
-
-    .hamburger-menu-links {
-        transition: all 3s ease;
-
-    }
-
-    .navbar-ul {
-        background-color: blue;
-    }
 
 }
+
+.hamburger-menu-links {
+    margin-top: 0;
+
+}
+
+
+
+
+.navbar-ul {
+    background-color: blue;
+}
+
+
 
 
 @media (max-width:500px) {

@@ -623,48 +623,43 @@ button {
   margin-top: 80px;
 }
 
-.toggle {
-  display: none;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
-}
-
-.x-mark {
-  display: block;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
-  position: absolute;
-  right: 4%;
-  top: 4%;
-  color: black;
-  font-size: 2em;
-  position: fixed;
-}
-
 .mobile-nav {
   position: fixed;
   display: none;
-  -webkit-transition: all 5s;
-  transition: all 5s;
 }
 
-.hamburger-menu-links {
-  background-color: darkblue;
-  font-size: 25px;
-  position: fixed;
-  top: 25%;
-  opacity: 0.6;
+.toggle {
   text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 2s, opacity 1s ease;
+  transition: visibility 2s, opacity 1s ease;
 }
-.hamburger-menu-links li {
-  margin-bottom: 25px;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+.toggle a:hover {
+  border-bottom: 2.5px solid #50E3C2;
 }
-.hamburger-menu-links li:hover {
-  border-bottom: 2px solid #50E3C2;
+.toggle li {
+  padding: 10px;
+}
+.toggle ul {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(-50%, -4%);
+          transform: translate(-50%, -4%);
+  top: 4%;
+  left: 50%;
+  z-index: 300;
+}
+.toggle .hamburger-menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 20px;
+  padding: 15px;
 }
 
 .section1-background {
@@ -1036,19 +1031,29 @@ footer {
     color: black;
     font-weight: bolder;
     z-index: 100;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: visibility 0s linear 300ms, opacity 300ms;
+    transition: visibility 0s linear 300ms, opacity 300ms;
   }
-  .fa-2x {
-    position: relative;
+  .x-mark {
+    position: fixed;
+    font-size: 2em;
+    right: 4%;
+    top: 4%;
+    color: black;
+    font-weight: bolder;
     z-index: 100;
   }
-  .hamburger-menu-links {
-    -webkit-transition: all 3s ease;
-    transition: all 3s ease;
-  }
-  .navbar-ul {
-    background-color: blue;
-  }
 }
+.hamburger-menu-links {
+  margin-top: 0;
+}
+
+.navbar-ul {
+  background-color: blue;
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: clamp(1rem, 2.5vw, 2rem) !important;
