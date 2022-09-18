@@ -1138,6 +1138,7 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center !important;
   }
   .contact-section {
     -webkit-box-orient: vertical;
