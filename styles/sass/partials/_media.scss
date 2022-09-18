@@ -318,3 +318,28 @@
         font-size: 16px;
     }
 }
+
+@media (max-width:600px) {
+
+    .fa-solid.fa-bars,
+    .fa-solid.fa-x.fa-2x {
+        font-size: 35px;
+    }
+
+    .toggle .hamburger-menu-links {
+        font-size: 12px;
+        padding: 0px;
+        ;
+    }
+
+    .section1-para-wrapper h2 {
+        margin-top: -100px;
+    }
+
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 28px !important;
+    }
+}
