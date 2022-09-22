@@ -4,14 +4,20 @@
 
 .container1 {
     padding: 75px 0px;
+    position: relative;
 }
 
 .section2-background {
     background-color: $lightLightBlue ;
+
 
 }
 
 .section2 {
     display: flex;
     gap: 30px;
+
+    .hidden {
+        visibility: hidden;
+    }
 }
