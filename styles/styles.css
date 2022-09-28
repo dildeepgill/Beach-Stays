@@ -665,6 +665,13 @@ button {
   padding: 15px;
 }
 
+.forward,
+.backward {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .section1-background {
   background-color: #FAFFFE;
 }
